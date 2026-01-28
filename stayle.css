@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Zoro {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+h1 {
+   color: white; 
+   text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+#navi {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navi > li {
+    list-style: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 4px;
+
+}
+
+#navi > li:hover {
+    background-color: white;
+    font-style: italic;
+}
