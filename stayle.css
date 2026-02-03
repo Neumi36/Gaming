@@ -68,18 +68,18 @@ img {
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
     width: 30%;
-    height: 30%;
+    height: 100%;
     aspect-ratio: 16 / 9;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
+    margin-top: 6rem;
+    height: calc(100vh - 6rem);
     width: 100%;
-    margin-top: 5%;
+    top: 2rem;
+    overflow-y: scroll;
 }
 
 nav {
